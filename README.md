@@ -2,7 +2,7 @@
 
 Welcome to Space Horizon, a web application for space enthusiasts. This project was developed as part of Harvard's CS50 Web Programming with Python and JavaScript course. 
 
-By **ArjunP3105 , edX username - Minitium**
+By **ArjunP3105**
 
 # **What is Space Horizon?**
 
