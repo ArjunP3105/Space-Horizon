@@ -1,0 +1,58 @@
+{% extends "space/layout.html"%}
+{% block body %}
+  <div class = "quote-container">
+    <div class="quote">
+      <div class = "quote-content">"One small step for man, one giant leap for mankind."</div>
+      <div class = "quote-author">Neil Armstrong</div>
+    </div>
+  </div>
+  <div class="selection">
+    <div class="news-options-container">
+    </div>
+    <div class="watch-options-container">
+    </div>
+  </div>
+  <div class="event-header">
+    <h1 id = "event-text">Astronomical Events</h1>
+    <hr> 
+  </div>
+  <div class="date">
+    <form>
+      <input type="date" id = "startdate">
+      <input type="date" id = "enddate">
+    </form>
+    <button class="formatbtn">⌕</button>
+    <p class="refresh">↻</p>
+  </div>
+  <div class="events">
+  </div>
+  <div class="inner-event">
+  </div>
+  <div class="notification-center">
+  </div>
+  <div class="user"></div>
+  <div class="option">
+    <nav  class="navbar navbar-expand-lg navbar-light">
+      <div class="inner_nav">
+        <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" id = "nav-c">Calendar</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id = "nav-b">Bookmark</a>
+              </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id  ="calendar"></div>
+  <div class = "user-bookmark"></div>
+  <div class="paginator"></div>
+  <div class="news-h">
+    <h2>NEWS</h2>
+    <hr>
+  </div>
+  <div class="topnews"></div>
+  <div class = "inner-news"></div>
+  <div class="allnews"></div>
+{% endblock %}
