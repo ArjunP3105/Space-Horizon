@@ -1,6 +1,6 @@
 # **Space Horizon** 
 
-Welcome to Space Horizon, a web application for space enthusiasts. This project was developed as a final project for Harvard's CS50 Web Programming with Python and JavaScript course. 
+Welcome to Space Horizon, a web application for space enthusiasts.
 
 By **ArjunP3105**
 
